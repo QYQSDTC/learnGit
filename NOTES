@@ -1,0 +1,14 @@
+本地库的创建：
+在目录下 git init 
+添加文件 git add name.format <example.txt>
+添加完之后记得写commit   git commit -m "some words here"
+添加远程库
+从本地库关联远程库：
+先在GitHub创建一个库（不要选initiate with README.md）然后根据提示关联（建议用https，SSH会出问题）
+[git remote add origin https://github.com/username/projectname]
+然后是上传库 git push -u origin master （第一次+ -u 指令后面可简化为 git push origin master）
+从远程库上下载文件  git pull origin master
+从远程库克隆到本地库：
+直接在GitHub上创建一个库（选择initiate with README.md）那么就直接创建了一个远程库（origin）克隆下来后不用关联
+git clone https://github.com/username/projectname
+注意：每次更新文件还是要先add了之后再push
