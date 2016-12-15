@@ -2,3 +2,4 @@
 本地库
 好麻烦！
 Chinese can't be displayed !
+改成GB编码
